@@ -1,0 +1,15 @@
+{
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "name": "anix-js",
+  "version": "0.0.1",
+  "description": "Minimal and flexible JSON-RPC wrapper",
+  "main": "anix.mjs",
+  "scripts": {
+    "start": "node --watch example.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
