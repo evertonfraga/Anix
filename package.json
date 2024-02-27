@@ -2,6 +2,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "keywords": ["Ethereum", "JavaScript", "NodeJS", "Bun", "JSON-RPC", "EVM"],
   "repository": {
     "type": "git",
     "url": "https://github.com/evertonfraga/anix.git"
