@@ -1,5 +1,5 @@
 /**
- * For use on AWS Lambdas, upload the ../anix.mjs file and update imports accordingly.
+ * For use on AWS Lambdas, upload the anix.mjs file and update imports accordingly.
  * Please use NodeJS 18 and above.
  */
 

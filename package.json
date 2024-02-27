@@ -2,14 +2,24 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evertonfraga/anix.git"
+  },
   "name": "anix-js",
   "version": "0.0.1",
-  "description": "Minimal and flexible JSON-RPC wrapper",
-  "main": "anix.mjs",
-  "scripts": {
-    "start": "node --watch example.mjs"
+  "description": "Minimal and flexible JSON-RPC wrapper for Ethereum",
+  "exports": {
+    ".": {
+      "require": "./dist/anix.cjs",
+      "import": "./dist/anix.mjs"
+    }
   },
-  "author": "",
+  "scripts": {
+    "start": "node --watch examples/example.js",
+    "build": "rollup src/anix.mjs --file dist/anix.cjs --format cjs && rollup src/anix.mjs --file dist/anix.mjs --format es"
+  },
+  "author": "Everton Fraga",
   "license": "ISC",
   "type": "module"
 }

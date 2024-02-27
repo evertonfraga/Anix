@@ -1,4 +1,4 @@
-import {Anix, toHex} from '../anix.mjs'
+import {Anix, toHex} from '../src/anix.mjs'
 
 const eth = new Anix('eth', process.env.ENDPOINT_HTTP)
 

@@ -1,4 +1,4 @@
-import {Anix} from '../anix.mjs'
+import {Anix} from '../src/anix.mjs'
 
 const ENDPOINT = process.env.ENDPOINT_HTTP
 
