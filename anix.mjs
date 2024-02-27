@@ -32,4 +32,4 @@ export class Anix {
 	}
 }
 
-export const toHex = (n, chars) => '0x' + n.toString(16).padStart(chars || n.toString(16).length + n.toString(16).length % 2, '0')
+export const toHex = (n, chars) => '0x' + n.toString(16).padStart(chars || n.toString(16).length, '0')
