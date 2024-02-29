@@ -54,10 +54,12 @@ Anix has a built-in REPL script, making it easy to prototype.
 ```sh
 $ npx anix-js http://my-rpc-url.xyz
 
-Welcome to Anix 🪷⚘
+   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦
+ ♦   ♦   ♦   ♦  Welcome to Anix  ♦   ♦   ♦   ♦
+   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦   ♦
 
-> eth.getBlockByNumber('latest', false)
-> {…}
+Anix > await eth.blockNumber()
+'0x12705de'
 ```
 
 
