@@ -23,5 +23,5 @@
     "build": "rollup src/anix.mjs --file dist/anix.cjs --format cjs && rollup src/anix.mjs --file dist/anix.mjs --format es"
   },
   "type": "module",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
