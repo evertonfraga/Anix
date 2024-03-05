@@ -32,3 +32,5 @@ const r = repl.start({
     Object.defineProperty(r.context, namespace, { value: anix, configurable: false, enumerable: true })
 }
 )
+
+Object.defineProperty(r.context, 'toHex', { value: toHex, configurable: false, enumerable: true })
